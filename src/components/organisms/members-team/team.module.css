@@ -1,0 +1,14 @@
+.team {
+  margin-top: 27px;
+  display: flex;
+  gap: 20px;
+}
+.secondColumn {
+  padding-top: 100px; /* относительность*/
+}
+
+.column {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}

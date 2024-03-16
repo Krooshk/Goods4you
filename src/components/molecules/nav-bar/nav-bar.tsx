@@ -1,7 +1,7 @@
 import { NavLink } from "../../atoms/nav-link/nav-link";
 import styles from "./navbar.module.css";
 
-export function NavBar() {
+export function NavBar({ entry }: { entry: boolean }) {
   return (
     <ul className={styles.navbar}>
       <NavLink name="Catalog" />
@@ -9,7 +9,7 @@ export function NavBar() {
       <NavLink name="Product selection" />
       <NavLink name="Our team" />
       <NavLink name="FAQ" />
-      <NavLink name="For staff" />
+      {entry && <NavLink name="For staff" />}
     </ul>
   );
 }

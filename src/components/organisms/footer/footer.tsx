@@ -1,12 +1,12 @@
 import { Logo } from "../../atoms/logo/logo";
 import { NavBar } from "../../molecules/nav-bar/nav-bar";
-import styles from "./header.module.css";
+import styles from "./footer.module.css";
 
-export function Header() {
+export function Footer() {
   return (
-    <header className={styles.header}>
+    <header className={styles.footer}>
       <Logo />
-      <NavBar entry={true} />
+      <NavBar entry={false} />
     </header>
   );
 }
