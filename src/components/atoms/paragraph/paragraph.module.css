@@ -1,0 +1,11 @@
+.introduce {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  color: white;
+  font-family: Jost;
+  width: 330px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+  background-color: transparent;
+}

@@ -1,0 +1,16 @@
+.introduce {
+  position: relative;
+  margin-left: 130px;
+  margin-top: 100px;
+  z-index: 1;
+}
+.background {
+  margin-left: 162px;
+  position: absolute;
+  top: 15px;
+  font-size: 200px;
+  color: hsla(0, 0%, 100%, 0.12);
+  font-weight: 900;
+  font-family: Jost;
+  z-index: -1;
+}
