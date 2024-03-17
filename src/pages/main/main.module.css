@@ -1,0 +1,44 @@
+.sectionCatalog {
+  background-color: #fff;
+  height: 1377px; /* temporary */
+}
+
+.sectionAbout {
+  height: 580px;
+  position: relative;
+}
+
+.skateImage {
+  top: 0;
+  right: 50px;
+  position: absolute;
+}
+
+.figureImage {
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.sectionFeedback {
+  height: 778px;
+  background-color: #fff;
+}
+
+.sectionMemberTeam {
+  position: relative;
+  height: 1190px;
+  padding: 60px 130px 0px;
+}
+
+.figureMember {
+  top: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.sectionFAQ {
+  padding: 60px 0px 92px;
+  background-color: white;
+}
