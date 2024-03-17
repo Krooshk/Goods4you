@@ -134,6 +134,13 @@ body {
   background-color: #484283;
 }
 
+h2 {
+  font-family: Jost;
+  font-size: 30px;
+  font-weight: bold;
+  color: #444b58;
+}
+
 h3 {
   font-family: Jost;
   font-size: 30px;

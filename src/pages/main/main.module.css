@@ -37,3 +37,8 @@
   position: absolute;
   z-index: -1;
 }
+
+.sectionFAQ {
+  padding: 60px 0px 92px;
+  background-color: white;
+}

@@ -4,9 +4,9 @@ import styles from "./footer.module.css";
 
 export function Footer() {
   return (
-    <header className={styles.footer}>
+    <footer className={styles.footer}>
       <Logo />
       <NavBar entry={false} />
-    </header>
+    </footer>
   );
 }

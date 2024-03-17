@@ -5,6 +5,7 @@ import { Catalog } from "../../components/organisms/catalogView/catalogView";
 import { InfoBlock } from "../../components/organisms/info-block/info-block";
 import { Team } from "../../components/organisms/members-team/team";
 import { Footer } from "../../components/organisms/footer/footer";
+import { FAQ } from "../../components/organisms/faq-block/faq";
 import styles from "./main.module.css";
 
 export function MainPage() {
@@ -41,6 +42,11 @@ export function MainPage() {
         </div>
         <Team />
       </section>
+
+      <section className={styles.sectionFAQ}>
+        <FAQ />
+      </section>
+
       <Footer />
     </>
   );
